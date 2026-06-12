@@ -1394,19 +1394,10 @@
   }
   .footer-bottom-links a:hover { color: var(--taupe); }
 
-  /* ─── SCROLL ANIMATIONS ─── */
+  /* ─── SCROLL ANIMATIONS (GSAP CONTROLLED) ─── */
   .reveal {
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s cubic-bezier(.23,1,.32,1), transform 0.8s cubic-bezier(.23,1,.32,1);
   }
-  .reveal.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .reveal-delay-1 { transition-delay: 0.1s; }
-  .reveal-delay-2 { transition-delay: 0.2s; }
-  .reveal-delay-3 { transition-delay: 0.3s; }
 
   /* ─── HAMBURGER LINES ─── */
   .hamburger {

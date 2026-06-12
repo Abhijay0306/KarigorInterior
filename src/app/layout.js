@@ -2,7 +2,7 @@ import { Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ScrollObserver from "@/components/ScrollObserver";
+import ScrollTriggerManager from "@/components/ScrollTriggerManager";
 import PageTransition from "@/components/PageTransition";
 import SmoothScroll from "@/components/SmoothScroll";
 
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${cormorant.variable} ${jost.variable}`}>
       <body>
-        <ScrollObserver />
+        <ScrollTriggerManager />
         <PageTransition />
         <SmoothScroll />
         <Header />

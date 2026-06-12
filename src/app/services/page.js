@@ -77,13 +77,15 @@ export default function Services() {
     <main style={{ paddingTop: "100px" }}>
       {/* ─── HERO ─── */}
       <section style={{ background: "var(--cream)", padding: "80px 60px 60px" }}>
-        <p className="section-label">Our Expertise</p>
-        <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--black)", lineHeight: "1.1", marginBottom: "24px" }}>
-          Fully integrated <br /><em>design &amp; build</em> services.
-        </h1>
-        <p style={{ fontSize: "18px", lineHeight: "1.8", color: "rgba(50,45,41,0.78)", maxWidth: "600px" }}>
-          Explore our range of design specialties. We deliver custom furniture, full-home transformations, and high-performance modular setups.
-        </p>
+        <div className="reveal">
+          <p className="section-label">Our Expertise</p>
+          <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--black)", lineHeight: "1.1", marginBottom: "24px" }}>
+            Fully integrated <br /><em>design &amp; build</em> services.
+          </h1>
+          <p style={{ fontSize: "18px", lineHeight: "1.8", color: "rgba(50,45,41,0.78)", maxWidth: "600px" }}>
+            Explore our range of design specialties. We deliver custom furniture, full-home transformations, and high-performance modular setups.
+          </p>
+        </div>
       </section>
 
       {/* ─── GRID OF SERVICES ─── */}

@@ -70,10 +70,12 @@ export default async function GalleryPage() {
     <main style={{ paddingTop: "100px" }}>
       {/* ─── HERO HEADER ─── */}
       <section style={{ background: "var(--cream)", padding: "80px 60px 60px" }}>
-        <p className="section-label">Media Showcase</p>
-        <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--black)", lineHeight: "1.1", margin: 0 }}>
-          Visual <em>inspiration</em>.
-        </h1>
+        <div className="reveal">
+          <p className="section-label">Media Showcase</p>
+          <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--black)", lineHeight: "1.1", margin: 0 }}>
+            Visual <em>inspiration</em>.
+          </h1>
+        </div>
       </section>
 
       {/* ─── GALLERY WRAPPER ─── */}

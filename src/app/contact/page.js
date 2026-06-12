@@ -12,7 +12,7 @@ export default function Contact() {
       {/* ─── TITLE BANNER ─── */}
       <section style={{ background: "var(--black)", padding: "80px 60px 60px", position: "relative", overflow: "hidden" }}>
         <BotanicalPattern opacity={0.09} color="#AC9C8D" />
-        <div style={{ position: "relative", zIndex: 1 }}>
+        <div className="reveal" style={{ position: "relative", zIndex: 1 }}>
           <p className="section-label" style={{ color: "var(--taupe)" }}>Connect</p>
           <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--white)", lineHeight: "1.1", margin: 0 }}>
             Let&apos;s begin a <em>conversation</em>.

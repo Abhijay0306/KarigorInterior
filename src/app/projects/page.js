@@ -89,10 +89,12 @@ export default async function ProjectsPage() {
     <main style={{ paddingTop: "100px" }}>
       {/* ─── TITLE BANNER ─── */}
       <section style={{ background: "var(--cream)", padding: "80px 60px 60px" }}>
-        <p className="section-label">Selected Works</p>
-        <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--black)", lineHeight: "1.1", margin: 0 }}>
-          Our design <em>portfolio</em>.
-        </h1>
+        <div className="reveal">
+          <p className="section-label">Selected Works</p>
+          <h1 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(48px, 6vw, 80px)", fontWeight: "300", color: "var(--black)", lineHeight: "1.1", margin: 0 }}>
+            Our design <em>portfolio</em>.
+          </h1>
+        </div>
       </section>
 
       {/* ─── DYNAMIC FILTER GRID ─── */}
