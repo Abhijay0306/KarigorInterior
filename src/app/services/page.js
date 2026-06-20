@@ -12,63 +12,63 @@ const SERVICES_LIST = [
     slug: "residential-interior-design",
     title: "Residential Interior Design",
     desc: "Bespoke full-home or room-specific layouts designed for modern living. We translate your lifestyle needs into a curated editorial home.",
-    image: "/gallery-1.jpeg"
+    image: "/img-living-3.jpeg"
   },
   {
     num: "02",
     slug: "modular-kitchen",
     title: "Modular Kitchen Systems",
     desc: "Ergonomic, highly functional, and seamless German-style modular kitchens utilizing soft-close mechanisms, smart pantries, and quartz worktops.",
-    image: "/gallery-2.jpeg"
+    image: "/img-kitchen-2.jpeg"
   },
   {
     num: "03",
     slug: "bedroom-design",
     title: "Luxury Bedroom Design",
     desc: "Restful sanctuaries built around bespoke wall paneling, atmospheric indirect lighting configurations, and integrated closet systems.",
-    image: "/gallery-3.jpeg"
+    image: "/img-bedroom-3.jpeg"
   },
   {
     num: "04",
     slug: "living-room-design",
     title: "Living Room Design",
     desc: "A statement-making hub for hosting and relaxation, using curated textures, focal fireplaces/media units, and custom layouts.",
-    image: "/hero.jpg"
+    image: "/img-living-4.jpeg"
   },
   {
     num: "05",
     slug: "office-interior",
     title: "Office & Commercial Interiors",
     desc: "Boost workplace productivity and elevate your brand image with designed workspaces, meeting rooms, and collaborative zones.",
-    image: "/gallery-8.jpeg"
+    image: "/img-foyer.jpeg"
   },
   {
     num: "06",
     slug: "renovation",
     title: "Renovation & Remodeling",
     desc: "Breathing new life into old spaces. We handle structural changes, bathroom updates, and complete surface transformations.",
-    image: "/gallery-7.jpeg"
+    image: "/img-dining.jpeg"
   },
   {
     num: "07",
     slug: "space-planning",
     title: "Space Planning & 2D Layouts",
     desc: "Scale-accurate architectural zoning and layout mapping. We optimize circulation flows before purchasing any furniture.",
-    image: "/section2.jpeg"
+    image: "/img-living-2.jpeg"
   },
   {
     num: "08",
     slug: "custom-furniture",
     title: "Custom Furniture & Millwork",
     desc: "Handcrafted beds, dining tables, sideboards, and floating vanities constructed from seasoned marine plywood in our local workshops.",
-    image: "/gallery-5.jpg"
+    image: "/img-bedroom-2.jpeg"
   },
   {
     num: "09",
     slug: "turnkey-solutions",
     title: "Turnkey Design & Execution",
     desc: "Stress-free design management. We handle 3D visuals, material procurement, contracting work, site supervision, and final handover.",
-    image: "/gallery-6.jpg"
+    image: "/img-kitchen-1.jpeg"
   },
 ];
 

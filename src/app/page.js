@@ -10,33 +10,33 @@ import BotanicalPattern from "@/components/BotanicalPattern";
 const MOCK_PROJECTS = [
   {
     id: "mock-1",
-    title: "The Editorial Living Room",
+    title: "The Grand Living Suite",
     slug: "editorial-living-room",
     category: "Living Room Design",
     style: "Modern Luxury",
-    heroImage: "/gallery-1.jpeg",
-    beforeImage: "/gallery-7.jpeg",
-    afterImage: "/gallery-1.jpeg",
+    heroImage: "/img-living-3.jpeg",
+    beforeImage: "/gallery-1.jpeg",
+    afterImage: "/img-living-3.jpeg",
   },
   {
     id: "mock-2",
-    title: "Sleek Charcoal Modular Kitchen",
+    title: "Luxury Modular Kitchen",
     slug: "charcoal-modular-kitchen",
     category: "Modular Kitchen",
     style: "Contemporary Minimalist",
-    heroImage: "/gallery-4.jpg",
-    beforeImage: "/gallery-8.jpeg",
-    afterImage: "/gallery-4.jpg",
+    heroImage: "/img-kitchen-2.jpeg",
+    beforeImage: "/gallery-4.jpg",
+    afterImage: "/img-kitchen-2.jpeg",
   },
   {
     id: "mock-3",
-    title: "Mid-Century Modern Bedroom Suite",
+    title: "Master Bedroom Sanctuary",
     slug: "mid-century-bedroom-suite",
     category: "Bedroom Design",
-    style: "Mid-Century Modern",
-    heroImage: "/gallery-2.jpeg",
-    beforeImage: null,
-    afterImage: null,
+    style: "Contemporary Luxury",
+    heroImage: "/img-bedroom-3.jpeg",
+    beforeImage: "/gallery-2.jpeg",
+    afterImage: "/img-bedroom-3.jpeg",
   }
 ];
 
@@ -47,7 +47,7 @@ const MOCK_BLOGS = [
     slug: "vastu-friendly-interiors-modern-homes",
     excerpt: "Discover how to balance the flow of energy in your apartment using Vastu guidelines.",
     category: "Vastu-Friendly",
-    coverImage: "/gallery-3.jpeg",
+    coverImage: "/img-dining.jpeg",
   },
   {
     id: "blog-2",
@@ -55,7 +55,7 @@ const MOCK_BLOGS = [
     slug: "guide-luxury-affordable-interiors",
     excerpt: "How to achieve high-end editorial styling on a practical budget.",
     category: "Affordable Luxury",
-    coverImage: "/gallery-1.jpeg",
+    coverImage: "/gallery-3.jpeg",
   }
 ];
 
@@ -199,7 +199,7 @@ export default async function Home() {
         
         <div className="intro-right reveal">
           <div className="intro-image-block">
-            <div className="img-card img-card-main" style={{ backgroundImage: "url('/section2.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+            <div className="img-card img-card-main" style={{ backgroundImage: "url('/img-living-3.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }}>
             </div>
             <div className="img-card img-card-accent">
               <p className="img-card-accent-text">Craft, vision &amp; unrivalled expertise</p>
@@ -225,10 +225,10 @@ export default async function Home() {
 
           <div>
             <BeforeAfterSlider 
-              beforeSrc="/before-hero.jpg" 
-              afterSrc="/gallery-1.jpeg" 
-              beforeAlt="Dated Layout" 
-              afterAlt="Editorial Living Room Transformation" 
+              beforeSrc="/before.png" 
+              afterSrc="/after.png" 
+              beforeAlt="Empty room — before Karigor Interior" 
+              afterAlt="Transformed living room — after Karigor Interior" 
               height="450px"
             />
           </div>
@@ -355,7 +355,7 @@ export default async function Home() {
         <div className="philosophy-bg"></div>
         <div className="philosophy-lines"></div>
         <div className="philosophy-content">
-          <blockquote className="philosophy-quote reveal">
+          <blockquote className="philosophy-quote">
             <span className="reveal-line">
               <span>&quot;Luxury is not about excess — it is about intention.</span>
             </span>

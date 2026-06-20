@@ -25,13 +25,13 @@ export default function About() {
 
       {/* ─── FOUNDER PROFILE ─── */}
       <section className="about-profile-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "80px", alignItems: "center", padding: "120px 60px" }}>
-        <div className="about-profile-img" style={{ position: "relative", height: "600px", width: "100%", background: "var(--sand)", overflow: "hidden" }}>
+        <div className="about-profile-img" style={{ position: "relative", height: "750px", width: "100%", background: "var(--cream)", overflow: "hidden" }}>
           <Image
-            src="/founder_portrait.png"
+            src="/Sangita Banerjee.png"
             alt="Sangeeta Banerjee, Founder and Principal Designer of Karigor Interior"
             fill
             sizes="(max-width: 600px) 100vw, (max-width: 900px) 100vw, 45vw"
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "cover", objectPosition: "center center" }}
             priority
           />
           <div style={{ position: "absolute", bottom: "0", right: "0", background: "var(--crimson)", color: "var(--white)", padding: "16px 28px", fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", zIndex: 2 }}>

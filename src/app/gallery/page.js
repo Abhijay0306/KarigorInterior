@@ -9,18 +9,28 @@ export const metadata = {
 const MOCK_PROJECTS = [
   {
     category: "Living Room Design",
-    heroImage: "/gallery-1.jpeg",
-    galleryImages: ["/gallery-2.jpeg", "/gallery-3.jpeg"],
+    heroImage: "/img-living-3.jpeg",
+    galleryImages: ["/img-living-2.jpeg", "/img-living-4.jpeg", "/img-living-1.jpeg", "/gallery-1.jpeg", "/gallery-5.jpg", "/gallery-6.jpg"],
   },
   {
     category: "Modular Kitchen",
-    heroImage: "/gallery-4.jpg",
-    galleryImages: ["/gallery-5.jpg", "/gallery-6.jpg"],
+    heroImage: "/img-kitchen-2.jpeg",
+    galleryImages: ["/img-kitchen-1.jpeg", "/gallery-4.jpg"],
   },
   {
     category: "Bedroom Design",
-    heroImage: "/gallery-2.jpeg",
-    galleryImages: ["/gallery-1.jpeg", "/gallery-3.jpeg"],
+    heroImage: "/img-bedroom-3.jpeg",
+    galleryImages: ["/img-bedroom-1.jpeg", "/img-bedroom-2.jpeg", "/gallery-2.jpeg", "/gallery-3.jpeg"],
+  },
+  {
+    category: "Dining Room",
+    heroImage: "/img-dining.jpeg",
+    galleryImages: ["/gallery-7.jpeg"],
+  },
+  {
+    category: "Foyer & Entrance",
+    heroImage: "/img-foyer.jpeg",
+    galleryImages: ["/gallery-8.jpeg"],
   },
 ];
 

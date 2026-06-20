@@ -5,14 +5,27 @@ import { createPortal } from "react-dom";
 import Image from "next/image";
 
 const defaultGalleryItems = [
-  { id: 1, src: "/gallery-1.jpeg", alt: "Karigor Interior project 1" },
-  { id: 2, src: "/gallery-2.jpeg", alt: "Karigor Interior project 2" },
-  { id: 3, src: "/gallery-3.jpeg", alt: "Karigor Interior project 3" },
-  { id: 4, src: "/gallery-4.jpg",  alt: "Karigor Interior project 4" },
-  { id: 5, src: "/gallery-5.jpg",  alt: "Karigor Interior project 5" },
-  { id: 6, src: "/gallery-6.jpg",  alt: "Karigor Interior project 6" },
-  { id: 7, src: "/gallery-7.jpeg", alt: "Karigor Interior project 7" },
-  { id: 8, src: "/gallery-8.jpeg", alt: "Karigor Interior project 8" },
+  // New portfolio images
+  { id: 1,  src: "/img-living-3.jpeg",  alt: "Elegant Living Room with Moulded Walls" },
+  { id: 2,  src: "/img-dining.jpeg",    alt: "Luxury Dining Room with Gold Chandelier" },
+  { id: 3,  src: "/img-bedroom-3.jpeg", alt: "Master Bedroom with Teal Accents" },
+  { id: 4,  src: "/img-kitchen-2.jpeg", alt: "Modular Kitchen with Smart Appliances" },
+  { id: 5,  src: "/img-living-4.jpeg",  alt: "Daytime Living Room with Natural Light" },
+  { id: 6,  src: "/img-bedroom-1.jpeg", alt: "Contemporary Bedroom with Walk-in Wardrobe" },
+  { id: 7,  src: "/img-foyer.jpeg",     alt: "Modern Foyer with Circular Mirror" },
+  { id: 8,  src: "/img-kitchen-1.jpeg", alt: "L-Shaped Modular Kitchen in Grey" },
+  { id: 9,  src: "/img-living-2.jpeg",  alt: "Living Room with French Mouldings" },
+  { id: 10, src: "/img-bedroom-2.jpeg", alt: "Youth Bedroom with Pastel Tones" },
+  { id: 11, src: "/img-living-1.jpeg",  alt: "TV Unit Living Room Design" },
+  // Original gallery images
+  { id: 12, src: "/gallery-1.jpeg",    alt: "Karigor Interior — Portfolio" },
+  { id: 13, src: "/gallery-2.jpeg",    alt: "Karigor Interior — Portfolio" },
+  { id: 14, src: "/gallery-3.jpeg",    alt: "Karigor Interior — Portfolio" },
+  { id: 15, src: "/gallery-4.jpg",     alt: "Karigor Interior — Portfolio" },
+  { id: 16, src: "/gallery-5.jpg",     alt: "Karigor Interior — Portfolio" },
+  { id: 17, src: "/gallery-6.jpg",     alt: "Karigor Interior — Portfolio" },
+  { id: 18, src: "/gallery-7.jpeg",    alt: "Karigor Interior — Portfolio" },
+  { id: 19, src: "/gallery-8.jpeg",    alt: "Karigor Interior — Portfolio" },
 ];
 
 export default function GalleryLightbox({ images }) {

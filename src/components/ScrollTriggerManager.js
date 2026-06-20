@@ -111,6 +111,27 @@ export default function ScrollTriggerManager() {
       }
     }
 
+    // 6. Staggered reveal for philosophy quote lines
+    const quote = document.querySelector(".philosophy-quote");
+    if (quote) {
+      const lines = gsap.utils.toArray(".reveal-line > span", quote);
+      if (lines.length > 0) {
+        gsap.set(lines, { yPercent: 110 });
+        
+        gsap.to(lines, {
+          yPercent: 0,
+          duration: 1.2,
+          stagger: 0.15,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: quote,
+            start: "top 86%",
+            toggleActions: "play none none none",
+          },
+        });
+      }
+    }
+
     // Refresh scroll triggers after setting up everything
     ScrollTrigger.refresh();
   }, { dependencies: [pathname], revertOnUpdate: true });

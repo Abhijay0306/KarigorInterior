@@ -1124,22 +1124,7 @@
 
   .reveal-line > span {
     display: inline-block;
-    transform: translateY(110%);
-    transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
     will-change: transform;
-  }
-
-  .philosophy-quote.visible .reveal-line:nth-child(1) > span {
-    transform: translateY(0);
-    transition-delay: 0s;
-  }
-  .philosophy-quote.visible .reveal-line:nth-child(2) > span {
-    transform: translateY(0);
-    transition-delay: 0.12s;
-  }
-  .philosophy-quote.visible .reveal-line:nth-child(3) > span {
-    transform: translateY(0);
-    transition-delay: 0.24s;
   }
 
   .philosophy-quote em { color: var(--crimson); font-style: normal; margin-right: 0.15em; }
