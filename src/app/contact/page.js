@@ -42,7 +42,7 @@ export default function Contact() {
               <div>
                 <p style={{ fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--taupe)", marginBottom: "6px" }}>Direct Lines</p>
                 <a href="tel:+919748850377" style={{ display: "block", fontSize: "16px", color: "var(--black)", textDecoration: "none", marginBottom: "4px" }}>+91 97488 50377</a>
-                <a href="tel:+917439118283" style={{ display: "block", fontSize: "16px", color: "var(--black)", textDecoration: "none" }}>+91 74391 18283</a>
+                <a href="tel:+917439118285" style={{ display: "block", fontSize: "16px", color: "var(--black)", textDecoration: "none" }}>+91 74391 18285</a>
               </div>
 
               <div>

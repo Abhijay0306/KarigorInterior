@@ -398,7 +398,7 @@ export default async function Home() {
             <p style={{ fontSize: "12px", color: "rgba(250,248,245,0.85)", letterSpacing: "0.1em", marginBottom: "8px" }}>Studio, Kolkata</p>
             <a href="mailto:karigorinterior55@gmail.com" style={{ display: "block", fontSize: "13px", color: "rgba(250,248,245,0.85)", letterSpacing: "0.05em", textDecoration: "none" }}>karigorinterior55@gmail.com</a>
             <a href="tel:+919748850377" style={{ display: "block", fontSize: "13px", color: "rgba(250,248,245,0.85)", letterSpacing: "0.05em", marginTop: "6px", textDecoration: "none" }}>+91 97488 50377</a>
-            <a href="tel:+917439118283" style={{ display: "block", fontSize: "13px", color: "rgba(250,248,245,0.85)", letterSpacing: "0.05em", marginTop: "4px", textDecoration: "none" }}>+91 74391 18283</a>
+            <a href="tel:+917439118285" style={{ display: "block", fontSize: "13px", color: "rgba(250,248,245,0.85)", letterSpacing: "0.05em", marginTop: "4px", textDecoration: "none" }}>+91 74391 18285</a>
           </div>
         </div>
         <div className="cta-right">
