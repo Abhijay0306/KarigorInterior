@@ -20,8 +20,8 @@ const jost = Jost({
 });
 
 export const metadata = {
-  title: "Interior Designer in Kolkata | Luxury Home & Office Design | Karigor Interior",
-  description: "Award-winning interior design studio in Kolkata — luxury residences, modular kitchens, and turnkey renovations delivered since 2014. Book a free consultation.",
+  title: "Interior Designer in Kolkata | Affordable Luxury Home Design | Karigor Interior",
+  description: "Award-winning interior design studio in Kolkata delivering affordable luxury residences, modular kitchens, and turnkey renovations since 2014. Book a free consultation.",
 };
 
 export default function RootLayout({ children }) {
